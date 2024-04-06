@@ -18,6 +18,7 @@ class PatcherConfig(
     private val temporaryFilesPath: File = File("revanced-temporary-files"),
     aaptBinaryPath: String? = null,
     frameworkFileDirectory: String? = null,
+    private val shortenResourcePaths: Boolean = false,
 ) {
     private val logger = Logger.getLogger(PatcherConfig::class.java.name)
 
@@ -36,6 +37,7 @@ class PatcherConfig(
             useAapt2 = true
             aaptPath = aaptBinaryPath ?: ""
             frameworkDirectory = frameworkFileDirectory
+            this.shortenResourcePaths = this@PatcherConfig.shortenResourcePaths
         }
 
     /**
