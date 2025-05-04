@@ -1,3 +1,16 @@
+# [21.1.0](https://github.com/sti-233/revanced-patcher/compare/v21.0.0...v21.1.0) (2025-05-04)
+
+
+### Bug Fixes
+
+* api ([f367bea](https://github.com/sti-233/revanced-patcher/commit/f367beae51b28ee05cd2d6d9665e418039c54c8d))
+* api x2 ([94ca9ca](https://github.com/sti-233/revanced-patcher/commit/94ca9ca3c9df287da369d199bb0d07644e668c78))
+
+
+### Features
+
+* support aapt optimize ([2a9d1bf](https://github.com/sti-233/revanced-patcher/commit/2a9d1bffd2238e705efa2f13fe89842459cd66c0))
+
 # [21.0.0](https://github.com/ReVanced/revanced-patcher/compare/v20.0.2...v21.0.0) (2024-11-05)
 
 
