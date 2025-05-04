@@ -83,7 +83,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/zjns/revanced-patcher")
+            url = uri("https://maven.pkg.github.com/sti-233/revanced-patcher")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
                 password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
@@ -116,9 +116,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/zjns/revanced-patcher.git"
-                    developerConnection = "scm:git:git@github.com:zjns/revanced-patcher.git"
-                    url = "https://github.com/zjns/revanced-patcher"
+                    connection = "scm:git:git://github.com/sti-233/revanced-patcher.git"
+                    developerConnection = "scm:git:git@github.com:sti-233/revanced-patcher.git"
+                    url = "https://github.com/sti-233/revanced-patcher"
                 }
             }
         }
